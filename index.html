@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dynamic Resume Builder</h1>
+         Form to collect resume information 
+        <form id="resumeForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your email">
+            </div>
+
+            <div class="form-group">
+                <label for="education">Education:</label>
+                <textarea id="education" placeholder="Your education details"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="skills">Skills:</label>
+                <textarea id="skills" placeholder="Your skills"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="experience">Work Experience:</label>
+                <textarea id="experience" placeholder="Your work experience"></textarea>
+            </div>
+
+            <button type="button" id="generateResume">Generate Resume</button>
+        </form>
+
+         Display the dynamically generated resume 
+        <div id="resumeDisplay" class="resume-section">
+             This will be filled dynamically by TypeScript 
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

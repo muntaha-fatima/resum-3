@@ -1,0 +1,71 @@
+body {
+    font-family: Italian;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #71b8ca;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(171, 213, 213, 0.736);
+}
+
+h1 {
+    text-align: center;
+    color: #216b75b9;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #baa9a9;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #c6e6eb;
+    color: rgb(59, 148, 177);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #71a5c1;
+}
+
+.resume-section {
+    margin-top: 40px;
+}
+
+.resume-section h2 {
+    color: #000000;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.resume-section p {
+    margin-bottom: 10px;
+    color: #0b0b0bdf;
+    font-size: 18px;
+}
